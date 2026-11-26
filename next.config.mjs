@@ -5,6 +5,7 @@ const nextConfig = {
   compress: true,
   // Оптимизация изображений: WebP/AVIF + разрешённые сторонние домены
   images: {
+    unoptimized: true,
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       { protocol: 'https', hostname: 'images.unsplash.com' },
@@ -27,6 +28,9 @@ const nextConfig = {
       { source: '/o-kompanii', destination: '/o-nas', permanent: true },
     ];
   },
+  output: 'export',
+  basePath: '/Remont-project',
+  assetPrefix: '/Remont-project/',
 };
 
 export default nextConfig;
