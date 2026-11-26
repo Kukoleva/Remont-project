@@ -6,6 +6,7 @@ import LeadSection from '@/components/sections/LeadSection';
 import { PlaceholderImage } from '@/components/ui/PlaceholderImage';
 import { cn } from '@/lib/cn';
 import blog from '@/data/blog.json';
+import { Suspense } from 'react';
 
 export const metadata: Metadata = {
   title: 'Блог о ремонте квартир — гайды, цены, ошибки, тренды 2025',
@@ -18,7 +19,7 @@ const PAGE_SIZE = 9;
 
 const CATEGORIES = Array.from(new Set(blog.map((b) => b.category)));
 
-export default function BlogPage({
+export default function BlogContent({
   searchParams,
 }: {
   searchParams?: { cat?: string; page?: string };
@@ -119,5 +120,12 @@ export default function BlogPage({
         source="blog"
       />
     </>
+  );
+}
+export default function BlogPage() {
+  return (
+    <Suspense fallback={<div className="text-center py-20">Загрузка блога...</div>}>
+      <BlogContent />
+    </Suspense>
   );
 }

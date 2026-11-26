@@ -10,6 +10,8 @@ import { buildMetadata } from '@/lib/seo';
 import { SITE } from '@/lib/constants';
 import blog from '@/data/blog.json';
 
+//export const dynamic = 'force-dynamic';
+
 type Params = { params: { slug: string } };
 
 export function generateStaticParams() {

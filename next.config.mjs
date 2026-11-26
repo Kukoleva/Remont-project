@@ -31,6 +31,7 @@ const nextConfig = {
   output: 'export',
   basePath: '/Remont-project',
   assetPrefix: '/Remont-project/',
+  trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,
   },
