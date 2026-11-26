@@ -19,7 +19,7 @@ const PAGE_SIZE = 9;
 
 const CATEGORIES = Array.from(new Set(blog.map((b) => b.category)));
 
-export default function BlogContent({
+function BlogContent({
   searchParams,
 }: {
   searchParams?: { cat?: string; page?: string };
