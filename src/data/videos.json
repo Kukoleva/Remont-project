@@ -1,0 +1,66 @@
+[
+  {
+    "id": "v-1",
+    "youtubeId": "dQw4w9WgXcQ",
+    "title": "Капитальный ремонт трёшки в Минске: таймлапс",
+    "category": "Таймлапс",
+    "duration": "3:24",
+    "city": "Минск"
+  },
+  {
+    "id": "v-2",
+    "youtubeId": "dQw4w9WgXcQ",
+    "title": "Обзор квартиры после ремонта под ключ в Гомеле",
+    "category": "Обзоры",
+    "duration": "6:11",
+    "city": "Гомель"
+  },
+  {
+    "id": "v-3",
+    "youtubeId": "dQw4w9WgXcQ",
+    "title": "Как выбрать плитку: советы мастера (Shorts)",
+    "category": "Shorts",
+    "duration": "0:58",
+    "city": "Все"
+  },
+  {
+    "id": "v-4",
+    "youtubeId": "dQw4w9WgXcQ",
+    "title": "Ремонт кухни за 3 недели: процесс и результат",
+    "category": "Таймлапс",
+    "duration": "4:02",
+    "city": "Минск"
+  },
+  {
+    "id": "v-5",
+    "youtubeId": "dQw4w9WgXcQ",
+    "title": "5 ошибок при ремонте, которые дорого стоят",
+    "category": "Советы",
+    "duration": "8:45",
+    "city": "Все"
+  },
+  {
+    "id": "v-6",
+    "youtubeId": "dQw4w9WgXcQ",
+    "title": "Ремонт санузла под ключ: до/после (Shorts)",
+    "category": "Shorts",
+    "duration": "1:05",
+    "city": "Гомель"
+  },
+  {
+    "id": "v-7",
+    "youtubeId": "dQw4w9WgXcQ",
+    "title": "Дизайн-проект и 3D-визуализация квартиры в Минске",
+    "category": "Обзоры",
+    "duration": "5:37",
+    "city": "Минск"
+  },
+  {
+    "id": "v-8",
+    "youtubeId": "dQw4w9WgXcQ",
+    "title": "Смета ремонта: как не переплатить",
+    "category": "Советы",
+    "duration": "7:19",
+    "city": "Все"
+  }
+]

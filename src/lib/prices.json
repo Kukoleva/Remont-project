@@ -1,0 +1,26 @@
+{
+  "works": [
+    { "slug": "demontazh", "name": "Демонтажные работы", "unit": "м²", "price": 18 },
+    { "slug": "elektrika", "name": "Электромонтаж", "unit": "точка", "price": 32 },
+    { "slug": "santehnika", "name": "Сантехнические работы", "unit": "точка", "price": 42 },
+    { "slug": "shtukaturka", "name": "Штукатурка стен", "unit": "м²", "price": 14 },
+    { "slug": "styazhka", "name": "Стяжка пола", "unit": "м²", "price": 11 },
+    { "slug": "gipsokarton", "name": "Гипсокартон и перегородки", "unit": "м²", "price": 24 },
+    { "slug": "plitka", "name": "Укладка плитки", "unit": "м²", "price": 36 },
+    { "slug": "oboi", "name": "Оклейка стен обоями", "unit": "м²", "price": 5.5 },
+    { "slug": "pokraska", "name": "Малярные работы", "unit": "м²", "price": 6.5 },
+    { "slug": "laminat", "name": "Укладка ламината", "unit": "м²", "price": 8 },
+    { "slug": "potolki", "name": "Натяжные потолки", "unit": "м²", "price": 42 },
+    { "slug": "dveri", "name": "Установка дверей", "unit": "шт", "price": 240 }
+  ],
+  "renovationTypes": {
+    "kosmeticheskij": { "label": "Косметический", "duration": 25, "workMultiplier": 0.9 },
+    "kapitalnyj": { "label": "Капитальный", "duration": 45, "workMultiplier": 1.0 },
+    "evro": { "label": "Евро / дизайнерский", "duration": 65, "workMultiplier": 1.2 }
+  },
+  "materialClasses": {
+    "econom": { "label": "Эконом", "workMultiplier": 0.9 },
+    "standard": { "label": "Стандарт", "workMultiplier": 1.0 },
+    "premium": { "label": "Премиум", "workMultiplier": 1.15 }
+  }
+}

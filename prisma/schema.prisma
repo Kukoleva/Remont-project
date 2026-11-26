@@ -1,0 +1,37 @@
+// Prisma schema — заявки и отзывы сайта.
+// Подключение: PostgreSQL (см. .env.local → DATABASE_URL).
+// Генерация клиента: `npm run prisma:generate`
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+/// Заявки с форм (lead-форма, калькулятор, портфолио)
+model Lead {
+  id        Int      @id @default(autoincrement())
+  name      String
+  phone     String
+  source    String   @default("main")
+  message   String   @default("")
+  page      String?
+  createdAt DateTime @default(now())
+  status    String   @default("new") // new | contacted | won | lost
+}
+
+/// Отзывы клиентов (публикуются после модерации)
+model Review {
+  id        Int      @id @default(autoincrement())
+  author    String
+  city      String
+  rating    Int
+  text      String
+  service   String   @default("")
+  contact   String?
+  moderated Boolean  @default(false)
+  createdAt DateTime @default(now())
+}

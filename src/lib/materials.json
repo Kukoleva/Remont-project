@@ -1,0 +1,12 @@
+{
+  "materials": [
+    { "slug": "oboi", "name": "Обои", "unit": "рулон", "unitAreaM2": 5.3, "prices": { "econom": 25, "standard": 55, "premium": 120 } },
+    { "slug": "plitka-sten", "name": "Плитка настенная", "unit": "м²", "unitAreaM2": 1, "prices": { "econom": 28, "standard": 55, "premium": 120 } },
+    { "slug": "plitka-pol", "name": "Керамогранит (пол)", "unit": "м²", "unitAreaM2": 1, "prices": { "econom": 36, "standard": 72, "premium": 150 } },
+    { "slug": "laminat", "name": "Ламинат", "unit": "м²", "unitAreaM2": 1, "prices": { "econom": 24, "standard": 46, "premium": 92 } },
+    { "slug": "kraska", "name": "Краска интерьерная", "unit": "л", "unitAreaM2": 10, "prices": { "econom": 8, "standard": 14, "premium": 28 } },
+    { "slug": "styazhka", "name": "Стяжка (сухая смесь)", "unit": "мешок 25 кг", "unitAreaM2": 1.4, "prices": { "econom": 9, "standard": 12, "premium": 16 } },
+    { "slug": "shtukaturka", "name": "Штукатурка (сухая смесь)", "unit": "мешок 30 кг", "unitAreaM2": 2.5, "prices": { "econom": 10, "standard": 14, "premium": 20 } },
+    { "slug": "gipsokarton", "name": "Гипсокартон (ГКЛ)", "unit": "лист 3 м²", "unitAreaM2": 3, "prices": { "econom": 12, "standard": 16, "premium": 22 } }
+  ]
+}
