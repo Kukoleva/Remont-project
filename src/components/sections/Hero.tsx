@@ -91,7 +91,7 @@ export default function Hero() {
         >
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-card-lg shadow-lift">
             <Image
-              src="/1.png"
+              src="/images/4.png"
               alt="Ремонт квартиры под ключ — пример готовой гостиной"
               fill
               priority

@@ -28,9 +28,9 @@ const nextConfig = {
   //     { source: '/o-kompanii', destination: '/o-nas', permanent: true },
   //   ];
   // },
-  output: 'export',
-  basePath: '/Remont-project',
-  assetPrefix: '/Remont-project/',
+  // output: 'export',
+  // basePath: '/Remont-project',
+  // assetPrefix: '/Remont-project/',
   trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,

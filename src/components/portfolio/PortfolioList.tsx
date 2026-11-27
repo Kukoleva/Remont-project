@@ -7,6 +7,7 @@ import { PlaceholderImage } from '@/components/ui/PlaceholderImage';
 import { cn } from '@/lib/cn';
 import portfolio from '@/data/portfolio.json';
 
+const IMAGES = ['/images/2.jpeg','/images/3.jpeg','/images/23.jpeg','/images/5.jpeg','/images/6.jpeg','/images/8.jpeg','/images/9.jpeg','/images/10.jpeg','/images/11.jpeg','/images/13.jpeg','/images/15.jpeg','/images/16.jpeg','/images/17.jpeg','/images/18.jpeg','/images/19.jpeg','/images/20.jpeg','/images/21.jpeg','/images/24.jpeg','/images/25.jpeg','/images/26.jpeg','/images/27.jpeg','/images/28.jpeg','/images/29.jpeg','/images/30.jpeg','/images/32.jpeg','/images/33.jpeg','/images/34.jpeg','/images/35.jpeg','/images/36.jpeg','/images/37.jpeg','/images/38.jpeg','/images/39.jpeg','/images/55.jpeg'];
 const CITIES = ['Все', 'Минск', 'Гомель'] as const;
 const TYPES: { value: string; label: string }[] = [
   { value: 'all', label: 'Все типы' },
@@ -60,13 +61,13 @@ export default function PortfolioList() {
 
       {/* Сетка */}
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {filtered.map((p) => (
+        {filtered.map((p, i) => (
           <Link
             key={p.slug}
             href={`/portfolio/${p.slug}`}
             className="group overflow-hidden rounded-card bg-white shadow-card transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lift"
           >
-            <PlaceholderImage label={p.title} ratio="4/3" className="w-full rounded-b-none" />
+            <img src={IMAGES[i % IMAGES.length]} alt={p.title} className="h-48 w-full object-cover" />
             <div className="p-5">
               <h2 className="text-lg font-bold transition group-hover:text-primary">{p.title}</h2>
               <div className="mt-2 flex flex-wrap items-center gap-3 text-sm text-muted">

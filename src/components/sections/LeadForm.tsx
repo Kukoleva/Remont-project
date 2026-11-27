@@ -59,9 +59,6 @@ export default function LeadForm({ source = 'main', variant = 'card' }: LeadForm
     } catch {
       setStatus('error');
     }
-    } catch {
-      setStatus('error');
-    }
   };
 
   const content = (
