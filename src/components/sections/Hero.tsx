@@ -28,7 +28,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Минск · Гомель · работаем с 2014 года
+            Минск · Гомель — ремонт квартир под ключ
           </motion.p>
 
           <motion.h1
@@ -101,7 +101,7 @@ export default function Hero() {
           </div>
           <div className="absolute -bottom-4 -left-4 hidden rounded-card bg-white p-4 shadow-lift sm:block">
             <p className="text-sm font-semibold text-ink">Фикс-цена в договоре</p>
-            <p className="text-xs text-muted">не меняется в процессе</p>
+            <p className="text-xs text-muted">не меняются цены в процессе</p>
           </div>
         </motion.div>
       </div>

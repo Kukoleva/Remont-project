@@ -19,8 +19,7 @@ export default function PortfolioPage() {
           <p className="eyebrow">Портфолио</p>
           <h1 className="mt-4 text-4xl font-extrabold md:text-5xl">Наши выполненные работы</h1>
           <p className="mt-4 text-lg text-muted">
-            Каждый кейс — с реальной сметой и сроком. Выбирайте город и тип ремонта,
-            чтобы найти похожий на ваш объект.
+            Каждый кейс — с реальной сметой и сроком.
           </p>
         </div>
       </section>

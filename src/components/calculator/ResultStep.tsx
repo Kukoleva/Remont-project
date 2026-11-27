@@ -16,7 +16,7 @@ export default function ResultStep({ input, result }: Props) {
   const message = buildEstimateMessage(input, result);
   const encoded = encodeURIComponent(message);
 
-  const whatsapp = `https://wa.me/37525666094?text=${encoded}`;
+  const whatsapp = `https://wa.me/375256669409?text=${encoded}`;
   const telegram = `https://t.me/share/url?url=${encodeURIComponent(SITE.url)}&text=${encoded}`;
 
   return (
@@ -98,7 +98,7 @@ export default function ResultStep({ input, result }: Props) {
       </button>
 
       <p className="mt-4 text-center text-xs text-muted">
-        Смета предварительная. Точную стоимость подтвердит инженер после бесплатного замера.
+        Смета предварительная. Точную стоимость подтвердим после бесплатного замера.
       </p>
     </div>
   );

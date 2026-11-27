@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
           <p className="text-sm leading-relaxed text-white/80">
             Ремонт квартир под ключ в Минске и Гомеле. Фиксированная смета
-            и гарантия 3 года. Работаю с 2014 года.
+            и гарантия 3 года.
           </p>
           <div className="flex gap-3">
             <a
@@ -93,7 +93,7 @@ export default function Footer() {
           <h3 className="mb-4 font-heading text-sm font-bold uppercase tracking-wider text-accent">Контакты</h3>
           <ul className="space-y-4">
             <li className="flex gap-3 text-sm text-white/80">
-              <span className="font-semibold text-white">Работаю:</span> Минск и Гомель
+              <span className="font-semibold text-white">Работаем:</span> Минск и Гомель
             </li>
             <li className="flex gap-3 text-sm">
               <Phone className="mt-0.5 h-4 w-4 shrink-0 text-accent" />

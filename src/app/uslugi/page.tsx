@@ -13,7 +13,7 @@ import services from '@/data/services.json';
 export const metadata: Metadata = {
   title: 'Услуги по ремонту квартир в Минске и Гомеле — цены от 350 BYN/м²',
   description:
-    'Полный список услуг по ремонту квартир: под ключ, капитальный, косметический, дизайн-проект, ванная, кухня. Цены и сроки для Минска и Гомеля.',
+    'Полный список услуг по ремонту квартир: под ключ, капитальный, косметический, ванная, кухня. Цены и сроки для Минска и Гомеля.',
 };
 
 const ICONS: Record<string, LucideIcon> = { Home, Hammer, Paintbrush, Palette, Droplets, ChefHat };
@@ -21,7 +21,7 @@ const ICONS: Record<string, LucideIcon> = { Home, Hammer, Paintbrush, Palette, D
 const faqItems = [
   {
     question: 'С чего начать ремонт квартиры?',
-    answer: 'Оставьте заявку — инженер бесплатно приедет на замер, составит смету и предложит оптимальный план работ под ваш бюджет.',
+    answer: 'Оставьте заявку — бесплатно приедем на замер, составит смету и предложит оптимальный план работ под ваш бюджет.',
   },
   {
     question: 'Какие услуги входят в ремонт под ключ?',
@@ -42,7 +42,7 @@ export default function ServicesPage() {
           <p className="eyebrow">Услуги</p>
           <h1 className="mt-4 text-4xl font-extrabold md:text-5xl">Услуги по ремонту квартир</h1>
           <p className="mt-4 text-lg text-muted">
-            Работаю в Минске и Гомеле. Фиксированная смета и гарантия 3 года на все виды работ.
+            Работаем в Минске и Гомеле. Фиксированная смета и гарантия 3 года на все виды работ.
           </p>
         </div>
 

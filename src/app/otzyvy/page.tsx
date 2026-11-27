@@ -92,8 +92,7 @@ export default function ReviewsPage() {
             <p className="eyebrow">Ваш опыт важен</p>
             <h2 className="mt-4 text-3xl font-extrabold md:text-4xl">Оставьте отзыв о ремонте</h2>
             <p className="mt-4 max-w-lg text-muted">
-              Расскажите, как прошёл ремонт в квартире. Ваш отзыв поможет другим выбрать
-              надёжного мастера.
+              Расскажите, как прошёл ремонт в квартире. Ваш отзыв поможет другим.
             </p>
           </div>
           <div className="rounded-card-lg bg-white p-6 shadow-lift md:p-8">

@@ -8,7 +8,7 @@ import { SITE, RELATED_SITES } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Контакты — ремонт квартир в Минске и Гомеле',
   description:
-    'Контакты частного мастера по ремонту квартир: телефон, WhatsApp, Telegram, email. Работаю в Минске и Гомеле, бесплатный выезд на замер.',
+    'Наши контакты  по ремонту квартир: телефон, WhatsApp, Telegram, email. Работаем в Минске и Гомеле, бесплатный выезд на замер.',
 };
 
 export default function ContactsPage() {
@@ -82,9 +82,9 @@ export default function ContactsPage() {
           <div className="flex flex-col items-center gap-4 rounded-card bg-light p-6 text-center md:flex-row md:justify-between md:text-left">
             <div>
               <p className="flex items-center justify-center gap-2 text-sm font-semibold text-ink md:justify-start">
-                <Clock3 className="h-4 w-4 text-primary" /> Работаю: Минск и Гомель · {SITE.hours}
+                <Clock3 className="h-4 w-4 text-primary" /> Работаем: Минск и Гомель · {SITE.hours}
               </p>
-              <p className="mt-1 text-sm text-muted">Другие наши сайты:</p>
+              <p className="mt-1 text-sm text-muted">Другие наши сайты: с подробными ценами</p>
             </div>
             <div className="flex flex-wrap justify-center gap-2">
               {RELATED_SITES.map((s) => (

@@ -18,11 +18,11 @@ export default function VisualizationPage() {
       <section className="container-x pt-8 text-center">
         <p className="eyebrow">3D-визуализация</p>
         <h1 className="mx-auto mt-4 max-w-3xl text-4xl font-extrabold md:text-5xl">
-          Увидьте будущий интерьер до начала ремонта
+          Увидьте будущий интерьер до начала ремонта на компьютере
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-muted">
           Интерактивная 3D-сцена квартиры. Переключайте материалы отделки,
-          вращайте и приближайте — как будто вы уже в новой квартире.
+          вращайте и приближайте.
         </p>
       </section>
 
@@ -35,7 +35,7 @@ export default function VisualizationPage() {
         offersUnit="BYN/м²"
       />
       <LeadSection
-        title="Хочу такой ремонт"
+        title="такойремонт"
         subtitle="Оставьте заявку — сделаем 3D-визуализацию вашей планировки и точную смету."
         source="3d-vizualizaciya"
       />

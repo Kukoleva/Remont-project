@@ -16,15 +16,13 @@ export const metadata: Metadata = {
 
 const stats = [
   { icon: Award, value: '10+', label: 'лет опыта' },
-  { icon: Wrench, value: '250+', label: 'выполненных ремонтов' },
+  { icon: Wrench, value: '100+', label: 'выполненных ремонтов' },
   { icon: ShieldCheck, value: '3 года', label: 'гарантии' },
 ];
 
 const guarantees = [
   { title: 'Гарантия 3 года', text: 'На все виды черновых и чистовых работ по договору.' },
-  { title: 'Фикс-цена', text: 'Смета не меняется в процессе. Переплата — моя ответственность.' },
-  { title: 'Сроки в договоре', text: 'За просрочку предусмотрена неустойка — всё прописано.' },
-  { title: 'Личный контроль', text: 'Сам веду объект и лично принимаю каждый этап работ.' },
+  { title: 'Фикс-цена', text: 'Цены не меняются в процессе.' },
 ];
 
 export default function AboutPage() {
@@ -47,10 +45,10 @@ export default function AboutPage() {
         <div>
           <p className="eyebrow">О нас</p>
           <h1 className="mt-4 text-4xl font-extrabold md:text-5xl">
-            Частный мастер по ремонту квартир
+            опыт 10+ лет по ремонту квартир
           </h1>
           <p className="mt-4 text-lg text-muted">
-            Работаю как индивидуальный предприниматель с 2014 года — ремонтирую квартиры
+            Работаю как индивидуальный предприниматель — ремонт квартир
             под ключ в Минске и Гомеле. Без посредников, офисов и лишних наценок.
           </p>
           <div className="mt-8 grid grid-cols-3 gap-4">
@@ -63,7 +61,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-        <PlaceholderImage label="Частный мастер по ремонту квартир" ratio="4/3" className="w-full" />
+        <PlaceholderImage label="мастер по ремонту квартир" ratio="4/3" className="w-full" />
       </section>
 
       {/* Гарантии */}
@@ -89,7 +87,7 @@ export default function AboutPage() {
         <div className="container-x">
           <h2 className="text-center text-3xl font-extrabold">Работаю официально</h2>
           <div className="mx-auto mt-10 grid max-w-3xl gap-4 sm:grid-cols-2">
-            {['Свидетельство ИП', 'Договор подряда (образец)', 'Гарантийные обязательства', 'Акты приёмки работ'].map(
+            {['Свидетельство ИП', 'Договор подряда (образец)', 'Гарантийные обязательства',].map(
               (d) => (
                 <div key={d} className="flex items-center gap-3 rounded-card bg-white p-4 shadow-card">
                   <FileText className="h-6 w-6 shrink-0 text-primary" />
