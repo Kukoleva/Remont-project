@@ -50,7 +50,7 @@ export default function LeadForm({ source = 'main', variant = 'card' }: LeadForm
 
     setStatus('loading');
     try {
-      const res = await fetch('api/lead', {
+      const res = await fetch('/Remont-project/api/lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -64,9 +64,11 @@ export default function LeadForm({ source = 'main', variant = 'card' }: LeadForm
 
       if (!res.ok) throw new Error('server error');
 
-      trackLeadSubmit(source);
-      setStatus('success');
-      reset();
+       trackLeadSubmit(source);
+       setStatus('success');
+       reset();
+       const text = encodeURIComponent(`Имя: ${data.name}\nТелефон: ${data.phone}${data.message ? '\nСообщение: ' + data.message : ''}`);
+       window.open(`https://wa.me/375256669409?text=${text}`, '_blank');
     } catch {
       setStatus('error');
     }
