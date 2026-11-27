@@ -15,12 +15,12 @@
   ],
   "renovationTypes": {
     "kosmeticheskij": { "label": "Косметический", "duration": 25, "workMultiplier": 0.9 },
-    "kapitalnyj": { "label": "Капитальный", "duration": 45, "workMultiplier": 1.0 },
-    "evro": { "label": "Евро / дизайнерский", "duration": 65, "workMultiplier": 1.2 }
+    "kapitalnyj": { "label": "Капитальный", "duration": 45, "workMultiplier": 1.8 },
+    "evro": { "label": "Евро / дизайнерский", "duration": 65, "workMultiplier": 2.4 }
   },
   "materialClasses": {
     "econom": { "label": "Эконом", "workMultiplier": 0.9 },
-    "standard": { "label": "Стандарт", "workMultiplier": 1.0 },
-    "premium": { "label": "Премиум", "workMultiplier": 1.15 }
+    "standard": { "label": "Стандарт", "workMultiplier": 1.8 },
+    "premium": { "label": "Премиум", "workMultiplier": 2.4 }
   }
 }

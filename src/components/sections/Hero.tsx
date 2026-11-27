@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const stats = [
   { icon: ShieldCheck, value: '3 года', label: 'гарантии по договору' },
-  { icon: Clock, value: '45 дней', label: 'средний срок сдачи' },
+  { icon: Clock, value: '60 дней', label: 'средний срок сдачи' },
   { icon: Award, value: '100+', label: 'сданных объектов' },
 ];
 
