@@ -46,7 +46,7 @@ export default function Header() {
             <a
               href={SITE.phoneHref}
               onClick={trackCallClick}
-              className="flex items-center gap-2 text-sm font-semibold text-ink transition hover:text-primary"
+              className="flex items-center gap-2 text-sm font-semibold text-ink transition hover:text-primary xl:hidden"
             >
               <Phone className="h-4 w-4 text-primary" />
               {SITE.phone}
